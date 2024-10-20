@@ -1,6 +1,6 @@
 library(data.table)  
 library(ggplot2) 
-df <- fread("C:/Users/Kartik/Downloads/yellow_tripdata_2016-02.csv/yellow_tripdata_2016-02.csv")
+df <- fread("C:/Users/Kartik/Downloads/BDAProject/yellow_tripdata_2016-02.csv/yellow_tripdata_2016-02.csv")
 df$passenger_count <- as.factor(df$passenger_count)
 
 set.seed(123) 
